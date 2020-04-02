@@ -31,7 +31,7 @@ def get_filters():
         else:
             print("Invalid value, try again!")
             
-    # asking user for filters
+    # asking user for filters: both and none skips to next function
     while True:
         filters = input("Would you like to apply filters? Please choose: both, day, month or none?")
         filters = filters.lower().strip()
