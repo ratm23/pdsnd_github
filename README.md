@@ -11,5 +11,5 @@ The app is agraggeting and processing data from files which contains bikesharing
 The project uses chciago.csv, washington.csv and new_york_city.csv files
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I was using https://stackoverflow.com/ for small problems solving as well as https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud for git info. For Python part: https://nostarch.com/pythoncrashcourse2e
 
