@@ -18,14 +18,14 @@ def get_filters():
     # initializing variables and creating lists for loops
     
     city, month, day = '', '', ''
-    city_list = ['chicago','new york city','washington']
+    city_list = ['chicago','new york city','washington','los_angeles']
     months_list = ['january', 'february','march','april','may','june','all']
     days_list = ['mo','tu','we','th','fr','sa','su','all']
     
     # getting city from the user (used later for filtring the data) 
     
     while True:
-        city = input("Select the city please: Chicago, New York City or Washington? ")
+        city = input("Select the city please: Chicago, New York City, Los Angeles or Washington? ")
         if city.lower().strip() in city_list:
             break
         else:
