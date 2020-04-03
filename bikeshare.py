@@ -206,10 +206,12 @@ def user_stats(df, city):
     print('-'*40)
 # listing 5 records by user at one time
 def listing_records(df): 
-    x =0
+    x = 0
+    more_x = ""
     while True:
-        ans_data = input("Would you like to see 5 rows of data? Enter yes or no.\n")
+        ans_data = input("Would you like to see {} 5 rows of data? Enter yes or no.\n".format(more_x))
         if ans_data.lower() == 'yes':
+            more_x = "next"
             print(df[x:x+5])
             x += 5
         else:
